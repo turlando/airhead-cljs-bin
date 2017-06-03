@@ -34,34 +34,34 @@ return airhead_cljs.requests.playlist_remove_BANG_(cljs.core.cst$kw$uuid.cljs$co
 })], null)], null);
 });
 airhead_cljs.components.track_tr = (function airhead_cljs$components$track_tr(track,action_button){
-return new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$tr$track,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$td,(cljs.core.truth_(action_button)?new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [action_button,track], null):null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$td,(function (){var G__19148 = cljs.core.cst$kw$title;
-return (track.cljs$core$IFn$_invoke$arity$1 ? track.cljs$core$IFn$_invoke$arity$1(G__19148) : track.call(null,G__19148));
-})()], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$td,(function (){var G__19149 = cljs.core.cst$kw$artist;
-return (track.cljs$core$IFn$_invoke$arity$1 ? track.cljs$core$IFn$_invoke$arity$1(G__19149) : track.call(null,G__19149));
-})()], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$td,(function (){var G__19150 = cljs.core.cst$kw$album;
-return (track.cljs$core$IFn$_invoke$arity$1 ? track.cljs$core$IFn$_invoke$arity$1(G__19150) : track.call(null,G__19150));
+return new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$tr$track,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$td,(cljs.core.truth_(action_button)?new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [action_button,track], null):null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$td,(function (){var G__15294 = cljs.core.cst$kw$title;
+return (track.cljs$core$IFn$_invoke$arity$1 ? track.cljs$core$IFn$_invoke$arity$1(G__15294) : track.call(null,G__15294));
+})()], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$td,(function (){var G__15295 = cljs.core.cst$kw$artist;
+return (track.cljs$core$IFn$_invoke$arity$1 ? track.cljs$core$IFn$_invoke$arity$1(G__15295) : track.call(null,G__15295));
+})()], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$td,(function (){var G__15296 = cljs.core.cst$kw$album;
+return (track.cljs$core$IFn$_invoke$arity$1 ? track.cljs$core$IFn$_invoke$arity$1(G__15296) : track.call(null,G__15296));
 })()], null)], null);
 });
 airhead_cljs.components.tracks_table = (function airhead_cljs$components$tracks_table(tracks,action_button){
-return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$table$tracks,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$thead,new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$tr,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$th], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$th,"Title"], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$th,"Artist"], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$th,"Album"], null)], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$tbody,(function (){var iter__7684__auto__ = (function airhead_cljs$components$tracks_table_$_iter__19157(s__19158){
+return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$table$tracks,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$thead,new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$tr,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$th], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$th,"Title"], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$th,"Artist"], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$th,"Album"], null)], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$tbody,(function (){var iter__7781__auto__ = (function airhead_cljs$components$tracks_table_$_iter__15303(s__15304){
 return (new cljs.core.LazySeq(null,(function (){
-var s__19158__$1 = s__19158;
+var s__15304__$1 = s__15304;
 while(true){
-var temp__4657__auto__ = cljs.core.seq(s__19158__$1);
+var temp__4657__auto__ = cljs.core.seq(s__15304__$1);
 if(temp__4657__auto__){
-var s__19158__$2 = temp__4657__auto__;
-if(cljs.core.chunked_seq_QMARK_(s__19158__$2)){
-var c__7682__auto__ = cljs.core.chunk_first(s__19158__$2);
-var size__7683__auto__ = cljs.core.count(c__7682__auto__);
-var b__19160 = cljs.core.chunk_buffer(size__7683__auto__);
-if((function (){var i__19159 = (0);
+var s__15304__$2 = temp__4657__auto__;
+if(cljs.core.chunked_seq_QMARK_(s__15304__$2)){
+var c__7779__auto__ = cljs.core.chunk_first(s__15304__$2);
+var size__7780__auto__ = cljs.core.count(c__7779__auto__);
+var b__15306 = cljs.core.chunk_buffer(size__7780__auto__);
+if((function (){var i__15305 = (0);
 while(true){
-if((i__19159 < size__7683__auto__)){
-var track = cljs.core._nth.cljs$core$IFn$_invoke$arity$2(c__7682__auto__,i__19159);
-cljs.core.chunk_append(b__19160,cljs.core.with_meta(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [airhead_cljs.components.track_tr,track,action_button], null),new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$key,track], null)));
+if((i__15305 < size__7780__auto__)){
+var track = cljs.core._nth.cljs$core$IFn$_invoke$arity$2(c__7779__auto__,i__15305);
+cljs.core.chunk_append(b__15306,cljs.core.with_meta(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [airhead_cljs.components.track_tr,track,action_button], null),new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$key,track], null)));
 
-var G__19163 = (i__19159 + (1));
-i__19159 = G__19163;
+var G__15309 = (i__15305 + (1));
+i__15305 = G__15309;
 continue;
 } else {
 return true;
@@ -69,13 +69,13 @@ return true;
 break;
 }
 })()){
-return cljs.core.chunk_cons(cljs.core.chunk(b__19160),airhead_cljs$components$tracks_table_$_iter__19157(cljs.core.chunk_rest(s__19158__$2)));
+return cljs.core.chunk_cons(cljs.core.chunk(b__15306),airhead_cljs$components$tracks_table_$_iter__15303(cljs.core.chunk_rest(s__15304__$2)));
 } else {
-return cljs.core.chunk_cons(cljs.core.chunk(b__19160),null);
+return cljs.core.chunk_cons(cljs.core.chunk(b__15306),null);
 }
 } else {
-var track = cljs.core.first(s__19158__$2);
-return cljs.core.cons(cljs.core.with_meta(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [airhead_cljs.components.track_tr,track,action_button], null),new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$key,track], null)),airhead_cljs$components$tracks_table_$_iter__19157(cljs.core.rest(s__19158__$2)));
+var track = cljs.core.first(s__15304__$2);
+return cljs.core.cons(cljs.core.with_meta(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [airhead_cljs.components.track_tr,track,action_button], null),new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$key,track], null)),airhead_cljs$components$tracks_table_$_iter__15303(cljs.core.rest(s__15304__$2)));
 }
 } else {
 return null;
@@ -84,7 +84,7 @@ break;
 }
 }),null,null));
 });
-return iter__7684__auto__(tracks);
+return iter__7781__auto__(tracks);
 })()], null)], null);
 });
 airhead_cljs.components.playlist_section = (function airhead_cljs$components$playlist_section(){
