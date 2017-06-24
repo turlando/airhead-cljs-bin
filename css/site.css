@@ -28,6 +28,12 @@ header, section {
 }
 
 
+header {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
  *  TABLES                                                                   *
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
@@ -36,8 +42,8 @@ table {
     width: 100%;
 }
 
-th {
-    white-space: nowrap;
+td {
+    word-break: break-word;
 }
 
 th.sorting-th {
@@ -66,10 +72,6 @@ i.fa + span  {
 .track-action {
     padding: 0.3rem 0.6rem;
     font-weight: bold;
-}
-
-tr td:first-child {
-    padding-right: 0rem;
 }
 
 
