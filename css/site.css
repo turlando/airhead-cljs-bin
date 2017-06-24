@@ -2,21 +2,55 @@
  *  GENERAL                                                                  *
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
-main {
-    width: 100%;
-    margin: 0.5rem auto;
+html {
+    font-family: 'Exo 2', sans-serif;
 }
 
-@media screen and (min-width: 48em) {
+main {
+    width: 100%;
+    margin: 1rem 0;
+    padding: 0 0.5rem;
+}
+
+/* 48rem in pure-css applies to ≥ 768px window size.
+ * See https://purecss.io/grids/ "Default media queries" section
+ */
+@media screen and (min-width: 48rem) {
     main {
-        width: 90%;
+        width: 48rem;
+        margin: 1rem auto;
+        padding: 0;
     }
 }
 
-/* Columns */
-main > div {
-    box-sizing: border-box;
-    padding: 0.5rem;
+header, section {
+    width: 100%;
+}
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ *  TABLES                                                                   *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+table {
+    width: 100%;
+}
+
+th {
+    white-space: nowrap;
+}
+
+th.sorting-th {
+    cursor: pointer;
+}
+
+th.sorting-th > span {
+    vertical-align: middle;
+}
+
+th.sorting-th > span.sorting-th-arrow {
+    padding-left: 0.3rem;
+    font-size: 0.8rem;
 }
 
 
@@ -27,6 +61,15 @@ main > div {
 .pure-button > span,
 i.fa + span  {
     margin-left: 0.5rem;
+}
+
+.track-action {
+    padding: 0.3rem 0.6rem;
+    font-weight: bold;
+}
+
+tr td:first-child {
+    padding-right: 0rem;
 }
 
 
@@ -64,11 +107,5 @@ form#library-search {
 }
 
 form#library-search > input {
-    min-width: 100%;
-}
-
-@media screen and (min-width: 48em) {
-    form#library-search > input {
-        min-width: 85%;
-    }
+    width: 100%;
 }
