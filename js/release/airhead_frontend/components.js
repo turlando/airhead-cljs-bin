@@ -90,7 +90,7 @@ return (track.cljs$core$IFn$_invoke$arity$1 ? track.cljs$core$IFn$_invoke$arity$
 return (track.cljs$core$IFn$_invoke$arity$1 ? track.cljs$core$IFn$_invoke$arity$1(G__15594) : track.call(null,G__15594));
 })()], null)], null);
 });
-airhead_frontend.components.info_uploading = (function airhead_frontend$components$info_uploading(file_name,total,loaded){
+airhead_frontend.components.info_uploading = (function airhead_frontend$components$info_uploading(file_name,loaded,total){
 return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$div$upload_DASH_info,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$div,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$progress$pure_DASH_input_DASH_1,new cljs.core.PersistentArrayMap(null, 2, [cljs.core.cst$kw$max,total,cljs.core.cst$kw$value,loaded], null)], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$div,[cljs.core.str.cljs$core$IFn$_invoke$arity$1("Uploading: "),cljs.core.str.cljs$core$IFn$_invoke$arity$1(file_name)].join('')], null)], null);
 });
 airhead_frontend.components.info_transcoding = (function airhead_frontend$components$info_transcoding(file_name){
